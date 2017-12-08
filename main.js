@@ -3,6 +3,7 @@
 const PRNG = require('./Pokemon-Showdown/sim/prng');
 global.Dex = require('./Pokemon-Showdown/sim/dex');
 const common = require('./Pokemon-Showdown/test/common');
+require('./factory-data.js');
 
 function main() {
     let prng = new PRNG();
